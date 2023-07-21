@@ -1,0 +1,232 @@
+@media screen and (max-width: 820px) {
+    .link-logo-h1 {
+        display: none;
+    }
+    .link-logo-img {
+        height: 80%;
+    }
+    .title-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .title-text-container {
+        width: 100%;
+        height: 40%;
+    }
+    .road-map-container {
+        width: 100%;
+        padding: 5vw;
+        height: 60%;
+    }
+    .btn {
+        padding: 1vw 3vw;
+        font-size: 4vw;
+    }
+    .title-text {
+        font-size: 6vw;
+    }
+    .title-description {
+        font-size: 2vw;
+    }
+    .btn:active {
+        transform: scale(1.05);
+    }
+    .services-info-title {
+        font-size: 2.5vw;
+    }
+    .services-info {
+        font-size: 2vw;
+    }
+    .title-skills-p {
+        font-size: 4vw;
+    }
+    .skills-name-p {
+        font-size: 2.5vw;
+    }
+    .p-skills {
+        font-size: 2vw;
+    }
+    .page {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-section {
+        width: 100%;
+        height: 90vh;
+    }
+    .footer-info-container {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 5vh;
+    }
+    .contact-p {
+        height: 15%;
+    }
+    .Btn {
+        height: 8vh;
+        
+    }
+    .sign {
+        height: 80%;
+    }
+    .sign svg {
+        width: 4vw;
+        height: 4vw;
+    }
+    .Btn:hover .sign svg {
+        width: 4vw;
+        height: 4vw;
+    }
+    .text {
+        font-size: 3vw;
+    }
+    .nav-m {
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #menuToggle
+    {
+    display: block;
+    position: relative;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+    }
+    #menuToggle a
+    {
+    text-decoration: none;
+    color: #232323;
+    transition: color 0.3s ease;
+    }
+    #menuToggle a:hover
+    {
+    color: tomato;
+    }
+    #menuToggle input
+    {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
+    }
+    #menuToggle span
+    {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #cdcdcd;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+
+                opacity 0.55s ease;
+    }
+    #menuToggle span:first-child
+    {
+    transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2)
+    {
+    transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked ~ span
+    {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+    }
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+    transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu
+    {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    padding: 50px;
+    padding-top: 125px;
+    background: #ededed;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(105%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+    #menu li
+    {
+    padding: 10px 0;
+    font-size: 22px;
+    }
+    #menuToggle input:checked ~ ul
+    {
+    transform: translate(0, 0);
+    right: 0;
+    }
+    .title-nav {
+        display: none;
+    }
+    .cursor {
+        display: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .title-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .road-map-container {
+        padding: 1vw;
+    }
+    .title-description {
+        font-size: 4vw;
+    }
+    .services-road-text {
+        font-size: 4vw;
+        width: fit-content;
+    }
+    .services-info-title {
+        font-size: 4vw;
+    }
+    .services-info {
+        font-size: 3.5vw;
+    }
+    .title-skills-p {
+        font-size: 5vw;
+    }
+    .skills-name-p {
+        font-size: 3.5vw;
+    }
+    .p-skills {
+        font-size: 3vw;
+    }
+    .contact-p {
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 320px) {
+    .title-container {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,37 @@
+.cursor .cursor--small,
+.cursor .cursor--large,
+.cursor .cursor--text {
+  position: fixed;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: var(--cursor-size);
+  height: var(--cursor-size);
+  mix-blend-mode: unset;
+  pointer-events: none;
+  user-select: none;
+  z-index: 11;
+  background: rgba(255, 255, 255, 0.003);
+  backdrop-filter: blur(2px);
+}
+.cursor .cursor--text {
+  --cursor-size: fit-content;
+  font-size: 0.75rem;
+  color: rgb(0, 0, 0);
+  opacity: 0;
+}
+.cursor .cursor--text .text {
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.cursor .cursor--small {
+	position: absolute;
+	z-index: 12;
+  --cursor-size: 30px;
+  background: rgb(0, 0, 0);
+}
+.cursor .cursor--large {
+  --cursor-size: 60px;
+  border: 2px solid rgb(0, 0, 0);
+}

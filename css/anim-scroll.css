@@ -1,0 +1,7 @@
+.element-animation {
+    opacity: 0;
+}
+.element-show {
+    opacity: 1;
+    transition: 1s;
+}
