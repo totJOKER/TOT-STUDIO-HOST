@@ -33,7 +33,7 @@ function initScene() {
     createOrbitControls();
     popupVisible = false;
     new THREE.TextureLoader().load(
-        "../images/map.jpg",
+        "images/map.jpg",
         (mapTex) => {
             earthTexture = mapTex;
             earthTexture.repeat.set(1, 1);
