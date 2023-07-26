@@ -1,6 +1,7 @@
 .services-section {
     width: 100%;
     height: 90vh;
+    padding-top: 3vh;
     display: flex;
     flex-direction: column;
     align-items: center;
