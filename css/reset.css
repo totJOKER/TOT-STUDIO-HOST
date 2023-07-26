@@ -19,13 +19,13 @@ html, body {
   }
 @font-face {
     font-family: 'MuseoModerno';
-    src: url('../fonts/MuseoModerno-ExtraLight.eot');
-    src: url('../fonts/MuseoModerno-ExtraLight.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/MuseoModerno-ExtraLight.woff2') format('woff2'),
-         url('../fonts/MuseoModerno-ExtraLight.woff') format('woff'),
-         url('../fonts/MuseoModerno-ExtraLight.ttf') format('truetype'),
-         url('../fonts/MuseoModerno-ExtraLight.svg#MuseoModerno-ExtraLight') format('svg'),
-         url('../fonts/MuseoModerno-ExtraLight.otf');
+    src: url('../fonts/MuseoModerno-Regular.eot');
+    src: url('../fonts/MuseoModerno-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MuseoModerno-Regular.woff2') format('woff2'),
+         url('../fonts/MuseoModerno-Regular.woff') format('woff'),
+         url('../fonts/MuseoModerno-Regular.ttf') format('truetype'),
+         url('../fonts/MuseoModerno-Regular.svg#MuseoModerno-Regular') format('svg'),
+         url('../fonts/MuseoModerno-Regular.otf');
     font-weight: normal;
     font-style: normal;
 }

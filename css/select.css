@@ -3,6 +3,9 @@
     min-height: 100vh;
     background-color: rgba(26, 26, 26, 0.72);
 }
+.link-logo-img {
+	height: 50%;
+}
 .contact-section {
     background-color: rgba(26, 26, 26, 0.72);
 }
