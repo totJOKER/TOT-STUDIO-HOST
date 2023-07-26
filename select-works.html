@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="css/select.css">
 	<link rel="stylesheet" href="css/contact.css">
 	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="css/select-mobile.css">
     <script src="js/preloader.js"></script>
+	<script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
     <div id="preloader" class="preloader">
@@ -48,20 +50,32 @@
 	</style>
     <header class="element-animation title-header">
 		<a href="" class="link-logo-a">
-			<svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.4101 112.5C96.7557 92.873 114.688 65.5863 112.285 28.8183C89.8762 20.3013 63.6318 19.8665 40.625 26.1634C61.528 22.9179 84.1109 25.23 103.996 32.7287C106.552 64.8016 90.2799 91.4613 67.4101 112.5Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 31.25C13.1181 66.1567 26.2619 95.7264 58.245 113.542C77.3932 99.5506 91.855 78.0215 98.9583 55.5524C90.438 74.6321 76.3761 92.1134 59.4344 104.562C31.2878 89.403 17.7753 61.5475 12.5 31.25Z" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M109.373 24.7647C78.2974 8.42652 45.8376 5.61102 14.5833 24.9363C17.6102 48.4287 29.5613 71.4718 45.9185 88.5417C33.2374 71.8726 24.6619 51.1363 21.9243 30.3176C48.9701 13.0595 80.0986 14.7242 109.375 24.7647" fill="white"/>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M74.4074 49.5642H90.167L93.75 35.4166H31.25L34.8325 49.5647H50.5921V80.1823L62.4998 91.6666L74.4061 80.1841L74.4074 49.5642ZM55.1925 49.5642V44.9818H38.2694L38.2499 44.9063C37.8525 43.3092 37.4277 41.7182 37.0135 40.1237L36.9817 39.9996H88.0139L87.9816 40.1237C87.5701 41.7178 87.1466 43.3087 86.7479 44.9063L86.7333 44.9818H69.8075V49.5651V78.2921L64.8031 83.194L64.8053 45.1051H60.1943L60.1969 83.194L55.1952 78.2912L55.1925 49.5642Z" fill="white"/>
-            </svg>
-			<h1 class="link-logo-h1">TOT STUDIO - WORKS</h1>
+			<img src="images/header-logo.svg" alt="" class="link-logo-img">
+			<h1 class="link-logo-h1">TOT STUDIO</h1>
 		</a>
 		<nav class="title-nav">
-			<a href="index.html" class="nav-a">Главная</a>
+			<a href="index.html#title" class="nav-a">Главная</a>
 			<a href="index.html#services" class="nav-a">Услуги</a>
+			<a href="index.html#skills" class="nav-a">Скиллы</a>
 			<a href="index.html#contact" class="nav-a">Контакты</a>
-			<a href="work.html" class="nav-a">Работы</a>
+			<a href="index.htmlwork.html" class="nav-a">Работы</a>
 			<a href="" class="app-a button-a">Оставить заявку</a>
+		</nav>
+		<nav id="nav-m" class="nav-m" role="navigation">
+			<div id="menuToggle" class="">
+			  <input type="checkbox" />
+			  <span></span>
+			  <span></span>
+			  <span></span>
+			  <ul id="menu" class="menu menu-close">
+				<a id="a-m" class="a-m" href="index.html#title"><li>Главная</li></a>
+				<a id="a-m" class="a-m" href="index.html#services"><li>Услуги</li></a>
+				<a id="a-m" class="a-m" href="index.html#skills"><li>Скиллы</li></a>
+				<a id="a-m" class="a-m" href="index.html#contact"><li>Контакты</li></a>
+				<a id="a-m" class="a-m" href="work.html"><li>Работы</li></a>
+				<a id="a-m" class="a-m"	href="app.html"><li>Оставить заявку</li></a>
+			  </ul>
+			</div>
 		</nav>
 	</header>
     <section class="select-section">
@@ -78,7 +92,7 @@
 				<img src="images/ntz.png" alt="" class="title-info-img">
 			</div>
 		</div>
-		<img class="back-work-img" src="images/ntz.png" alt="">
+
     </section>
 	<section style="background-color: rgba(26, 26, 26, 0.72);" class="info-work-section">
 		<div class="info-work-container-all">

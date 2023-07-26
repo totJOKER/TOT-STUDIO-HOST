@@ -203,6 +203,12 @@
         font-size: 3vw;
     }
     .select-but {
+        font-size: 3vw;
+    }
+    .name-work {
+        font-size: 3vw;
+    }
+    .description-work {
         font-size: 2vw;
     }
 }
