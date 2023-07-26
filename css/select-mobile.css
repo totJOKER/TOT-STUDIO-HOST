@@ -1,3 +1,6 @@
+.nav-m {
+    display: none;
+}
 @media screen and (max-width: 768px) {
     .info-work-container {
         flex-direction: column;
