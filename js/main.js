@@ -28,3 +28,13 @@ new Swiper('.sw-sw', {
         watchState: true,
     },
 });
+
+$('#menuToggle').click (function(){
+    $('.menu').toggleClass('menu-close');
+    $(this).toggleClass('span-active');
+    $('.menu').toggleClass('menu-open');
+});
+$('.a-header-nav-fix').click (function(){
+    $('.mobile-nav-menu').toggleClass('menu-open');
+    $('.menu').toggleClass('open');
+})
